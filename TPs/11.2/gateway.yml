@@ -25,7 +25,7 @@ spec:
   http:
   - match:
     - uri:
-        prefix: /order-service/
+        prefix: /order/
     rewrite:
       uri: /
     route:
@@ -34,16 +34,27 @@ spec:
 
   - match:
     - uri:
-        prefix: /delivery-service/
+        prefix: /product/
     rewrite:
       uri: /
     route:
     - destination:
-        host: delivery-service
-        
+        host: product-service
+
   - match:
     - uri:
-        prefix: /zipkin
+        prefix: /delivery/
+    rewrite:
+      uri: /
     route:
     - destination:
-        host: zipkin
+        host: livraison-service        
+
+  - match:
+    - uri:
+        prefix: /query/
+    rewrite:
+      uri: /
+    route:
+    - destination:
+        host: order-query-service 
