@@ -1,0 +1,1125 @@
+2023-09-12 11:22:14,009 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-09-12 11:22:14,039 INFO o.a.j.JMeter: Loading user properties from: /home/dthibau/.sdkman/candidates/jmeter/5.6/bin/user.properties
+2023-09-12 11:22:14,039 INFO o.a.j.JMeter: Loading system properties from: /home/dthibau/.sdkman/candidates/jmeter/5.6/bin/system.properties
+2023-09-12 11:22:14,048 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
+2023-09-12 11:22:14,048 INFO o.a.j.JMeter: Version 5.6
+2023-09-12 11:22:14,048 INFO o.a.j.JMeter: java.version=14.0.2
+2023-09-12 11:22:14,048 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-09-12 11:22:14,048 INFO o.a.j.JMeter: os.name=Linux
+2023-09-12 11:22:14,048 INFO o.a.j.JMeter: os.arch=amd64
+2023-09-12 11:22:14,048 INFO o.a.j.JMeter: os.version=6.2.0-32-generic
+2023-09-12 11:22:14,048 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-09-12 11:22:14,048 INFO o.a.j.JMeter: java.awt.headless=null
+2023-09-12 11:22:14,049 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-09-12 11:22:14,049 INFO o.a.j.JMeter: Available Processors =8
+2023-09-12 11:22:14,060 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-09-12 11:22:14,061 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-09-12 11:22:14,061 INFO o.a.j.JMeter: JMeterHome=/home/dthibau/.sdkman/candidates/jmeter/5.6
+2023-09-12 11:22:14,061 INFO o.a.j.JMeter: user.dir  =/home/dthibau/Formations/DesignPatternsMicroServices/github/slides/TPs/3.1
+2023-09-12 11:22:14,061 INFO o.a.j.JMeter: PWD       =/home/dthibau/Formations/DesignPatternsMicroServices/github/slides/TPs/3.1
+2023-09-12 11:22:14,061 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: dthibau-XPS-13-7390 FullName: dthibau-XPS-13-7390
+2023-09-12 11:22:14,084 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-09-12 11:22:14,435 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2023-09-12 11:22:22,211 INFO o.a.j.s.FileServer: Default base='/home/dthibau/Formations/DesignPatternsMicroServices/github/slides/TPs/3.1'
+2023-09-12 11:22:22,215 INFO o.a.j.g.a.Load: Loading file: /home/dthibau/Formations/DesignPatternsMicroServices/github/slides/TPs/2.2/CreateOrder.jmx
+2023-09-12 11:22:22,215 INFO o.a.j.s.FileServer: Set new base='/home/dthibau/Formations/DesignPatternsMicroServices/github/slides/TPs/2.2'
+2023-09-12 11:22:22,367 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-09-12 11:22:22,384 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-09-12 11:22:22,387 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-09-12 11:22:22,390 INFO o.a.j.s.SaveService: Loading file: /home/dthibau/Formations/DesignPatternsMicroServices/github/slides/TPs/2.2/CreateOrder.jmx
+2023-09-12 11:22:22,421 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-09-12 11:22:22,421 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-09-12 11:22:22,421 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-09-12 11:22:22,421 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-09-12 11:22:22,421 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-09-12 11:22:22,421 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-09-12 11:22:22,688 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-09-12 11:22:22,688 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-09-12 11:22:22,688 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-09-12 11:22:22,688 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-09-12 11:22:22,886 ERROR o.a.j.v.ViewResultsFullVisualizer: Exception registering implementation: [org.apache.jmeter.visualizers.RenderInBrowser] of interface: [interface org.apache.jmeter.visualizers.ResultRenderer], a jar is probably missing
+java.util.ServiceConfigurationError: org.apache.jmeter.visualizers.ResultRenderer: org.apache.jmeter.visualizers.RenderInBrowser Unable to get public no-arg constructor
+	at java.util.ServiceLoader.fail(ServiceLoader.java:584) ~[?:?]
+	at java.util.ServiceLoader.getConstructor(ServiceLoader.java:675) ~[?:?]
+	at java.util.ServiceLoader$LazyClassPathLookupIterator.hasNextService(ServiceLoader.java:1234) ~[?:?]
+	at java.util.ServiceLoader$LazyClassPathLookupIterator.hasNext(ServiceLoader.java:1266) ~[?:?]
+	at java.util.ServiceLoader$2.hasNext(ServiceLoader.java:1301) ~[?:?]
+	at java.util.ServiceLoader$3.hasNext(ServiceLoader.java:1386) ~[?:?]
+	at org.apache.jorphan.reflect.ClassFinder.loadServices(ClassFinder.java:115) ~[jorphan.jar:5.6]
+	at org.apache.jmeter.util.JMeterUtils.loadServicesAndScanJars(JMeterUtils.java:345) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createComboRender(ViewResultsFullVisualizer.java:464) ~[ApacheJMeter_components.jar:5.6]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createLeftPanel(ViewResultsFullVisualizer.java:438) ~[ApacheJMeter_components.jar:5.6]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.init(ViewResultsFullVisualizer.java:349) ~[ApacheJMeter_components.jar:5.6]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.<init>(ViewResultsFullVisualizer.java:156) ~[ApacheJMeter_components.jar:5.6]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.apache.jmeter.gui.GuiPackage.getGuiFromCache(GuiPackage.java:424) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.GuiPackage.getGui(GuiPackage.java:267) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.GuiPackage.getGui(GuiPackage.java:238) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addComponent(JMeterTreeModel.java:160) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:131) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:131) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:123) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.GuiPackage.addSubTree(GuiPackage.java:555) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.action.Load.insertLoadedTree(Load.java:201) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:132) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:103) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.action.LoadRecentProject.doActionAfterCheck(LoadRecentProject.java:74) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.action.AbstractActionWithNoRunningTest.doAction(AbstractActionWithNoRunningTest.java:44) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:83) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:65) ~[ApacheJMeter_core.jar:5.6]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+Caused by: java.lang.NoClassDefFoundError: javafx/embed/swing/JFXPanel
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3215) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3420) ~[?:?]
+	at java.lang.Class.getConstructor(Class.java:2165) ~[?:?]
+	at java.util.ServiceLoader$1.run(ServiceLoader.java:662) ~[?:?]
+	at java.util.ServiceLoader$1.run(ServiceLoader.java:659) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:554) [?:?]
+	at java.util.ServiceLoader.getConstructor(ServiceLoader.java:670) ~[?:?]
+	... 43 more
+Caused by: java.lang.ClassNotFoundException: javafx.embed.swing.JFXPanel
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:435) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:589) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3215) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3420) ~[?:?]
+	at java.lang.Class.getConstructor(Class.java:2165) ~[?:?]
+	at java.util.ServiceLoader$1.run(ServiceLoader.java:662) ~[?:?]
+	at java.util.ServiceLoader$1.run(ServiceLoader.java:659) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:554) ~[?:?]
+	at java.util.ServiceLoader.getConstructor(ServiceLoader.java:670) ~[?:?]
+	... 43 more
+2023-09-12 11:22:22,994 INFO o.a.j.s.FileServer: Set new base='/home/dthibau/Formations/DesignPatternsMicroServices/github/slides/TPs/2.2'
+2023-09-12 11:22:41,003 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 11:22:41,007 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 11:22:41,007 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 11:22:41,011 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-09-12 11:22:41,011 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-09-12 11:22:41,399 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 11:22:41,451 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 11:22:41,451 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Groupe d'unités.
+2023-09-12 11:22:41,452 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 11:22:41,452 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=1 delayedStart=false
+2023-09-12 11:22:41,460 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 11:22:41,476 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-2
+2023-09-12 11:22:41,491 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 11:22:41,491 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 11:22:41,493 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-3
+2023-09-12 11:22:41,516 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-4
+2023-09-12 11:22:41,534 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-5
+2023-09-12 11:22:41,555 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-6
+2023-09-12 11:22:41,573 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-7
+2023-09-12 11:22:41,594 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-8
+2023-09-12 11:22:41,613 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-9
+2023-09-12 11:22:41,633 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-10
+2023-09-12 11:22:41,657 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-11
+2023-09-12 11:22:41,673 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-12
+2023-09-12 11:22:41,693 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-13
+2023-09-12 11:22:41,714 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-14
+2023-09-12 11:22:41,733 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-15
+2023-09-12 11:22:41,753 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-16
+2023-09-12 11:22:41,773 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-17
+2023-09-12 11:22:41,793 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-18
+2023-09-12 11:22:41,813 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-19
+2023-09-12 11:22:41,833 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-20
+2023-09-12 11:22:41,853 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-21
+2023-09-12 11:22:41,873 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-22
+2023-09-12 11:22:41,893 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-23
+2023-09-12 11:22:41,913 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-24
+2023-09-12 11:22:41,933 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-25
+2023-09-12 11:22:41,953 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-26
+2023-09-12 11:22:41,973 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-27
+2023-09-12 11:22:41,993 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-28
+2023-09-12 11:22:42,013 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-29
+2023-09-12 11:22:42,033 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-30
+2023-09-12 11:22:42,053 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-31
+2023-09-12 11:22:42,072 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-32
+2023-09-12 11:22:42,093 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-33
+2023-09-12 11:22:42,113 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-34
+2023-09-12 11:22:42,133 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-35
+2023-09-12 11:22:42,153 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-36
+2023-09-12 11:22:42,173 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-37
+2023-09-12 11:22:42,193 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-38
+2023-09-12 11:22:42,213 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-39
+2023-09-12 11:22:42,233 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-40
+2023-09-12 11:22:42,253 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-41
+2023-09-12 11:22:42,273 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-42
+2023-09-12 11:22:42,293 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-43
+2023-09-12 11:22:42,313 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-44
+2023-09-12 11:22:42,332 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-45
+2023-09-12 11:22:42,353 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-46
+2023-09-12 11:22:42,373 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-47
+2023-09-12 11:22:42,393 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-48
+2023-09-12 11:22:42,413 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-49
+2023-09-12 11:22:42,432 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-50
+2023-09-12 11:22:46,414 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = dthibau-XPS-13-7390
+2023-09-12 11:22:46,436 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-09-12 11:23:27,783 INFO o.a.j.g.a.Start: Stopping test
+2023-09-12 11:23:27,806 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-26
+2023-09-12 11:23:27,808 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-18
+2023-09-12 11:23:27,808 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,809 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-15
+2023-09-12 11:23:27,809 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,809 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-27
+2023-09-12 11:23:27,809 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,809 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-26
+2023-09-12 11:23:27,809 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-18
+2023-09-12 11:23:27,809 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,810 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-15
+2023-09-12 11:23:27,810 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-27
+2023-09-12 11:23:27,811 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-7
+2023-09-12 11:23:27,811 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-3
+2023-09-12 11:23:27,811 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-46
+2023-09-12 11:23:27,811 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,811 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,812 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-37
+2023-09-12 11:23:27,812 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,812 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-3
+2023-09-12 11:23:27,812 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,812 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-46
+2023-09-12 11:23:27,812 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-22
+2023-09-12 11:23:27,813 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-37
+2023-09-12 11:23:27,813 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-6
+2023-09-12 11:23:27,813 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,813 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-47
+2023-09-12 11:23:27,814 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-22
+2023-09-12 11:23:27,814 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-21
+2023-09-12 11:23:27,814 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,815 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-40
+2023-09-12 11:23:27,815 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,815 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-20
+2023-09-12 11:23:27,815 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-21
+2023-09-12 11:23:27,815 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-47
+2023-09-12 11:23:27,815 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-48
+2023-09-12 11:23:27,815 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,816 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-36
+2023-09-12 11:23:27,816 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,816 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-6
+2023-09-12 11:23:27,816 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,816 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-29
+2023-09-12 11:23:27,816 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,816 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-30
+2023-09-12 11:23:27,817 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,817 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-31
+2023-09-12 11:23:27,817 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-36
+2023-09-12 11:23:27,817 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-11
+2023-09-12 11:23:27,817 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-29
+2023-09-12 11:23:27,817 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-41
+2023-09-12 11:23:27,817 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,817 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,818 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-40
+2023-09-12 11:23:27,818 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-28
+2023-09-12 11:23:27,818 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,818 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-31
+2023-09-12 11:23:27,818 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,818 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-45
+2023-09-12 11:23:27,818 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-11
+2023-09-12 11:23:27,818 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,818 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,819 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-41
+2023-09-12 11:23:27,819 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-28
+2023-09-12 11:23:27,819 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-45
+2023-09-12 11:23:27,819 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,820 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-49
+2023-09-12 11:23:27,820 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-20
+2023-09-12 11:23:27,820 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-25
+2023-09-12 11:23:27,820 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,820 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-34
+2023-09-12 11:23:27,824 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,824 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-34
+2023-09-12 11:23:27,816 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-48
+2023-09-12 11:23:27,812 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-7
+2023-09-12 11:23:27,823 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,823 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-49
+2023-09-12 11:23:27,826 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-25
+2023-09-12 11:23:27,823 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-39
+2023-09-12 11:23:27,828 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,829 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-39
+2023-09-12 11:23:27,829 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-30
+2023-09-12 11:23:27,830 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-44
+2023-09-12 11:23:27,830 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-14
+2023-09-12 11:23:27,830 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,831 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-4
+2023-09-12 11:23:27,831 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,831 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-9
+2023-09-12 11:23:27,831 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-44
+2023-09-12 11:23:27,831 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,832 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,832 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-9
+2023-09-12 11:23:27,832 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-4
+2023-09-12 11:23:27,831 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-23
+2023-09-12 11:23:27,831 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-14
+2023-09-12 11:23:27,835 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-10
+2023-09-12 11:23:27,835 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,835 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-1
+2023-09-12 11:23:27,836 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,836 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-19
+2023-09-12 11:23:27,836 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-10
+2023-09-12 11:23:27,836 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,836 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-23
+2023-09-12 11:23:27,836 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,837 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-19
+2023-09-12 11:23:27,838 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 11:23:27,836 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-33
+2023-09-12 11:23:27,838 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-13
+2023-09-12 11:23:27,838 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,839 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-5
+2023-09-12 11:23:27,839 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-38
+2023-09-12 11:23:27,839 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-33
+2023-09-12 11:23:27,839 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-50
+2023-09-12 11:23:27,839 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,840 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-42
+2023-09-12 11:23:27,840 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-24
+2023-09-12 11:23:27,840 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-5
+2023-09-12 11:23:27,840 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,840 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-2
+2023-09-12 11:23:27,840 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,841 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-35
+2023-09-12 11:23:27,841 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,840 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,841 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-12
+2023-09-12 11:23:27,841 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-24
+2023-09-12 11:23:27,841 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-38
+2023-09-12 11:23:27,841 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,841 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-2
+2023-09-12 11:23:27,841 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-42
+2023-09-12 11:23:27,842 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-50
+2023-09-12 11:23:27,842 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,842 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,842 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-35
+2023-09-12 11:23:27,843 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-13
+2023-09-12 11:23:27,843 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-43
+2023-09-12 11:23:27,843 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-17
+2023-09-12 11:23:27,843 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,844 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-32
+2023-09-12 11:23:27,844 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,844 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-43
+2023-09-12 11:23:27,844 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-16
+2023-09-12 11:23:27,844 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-17
+2023-09-12 11:23:27,845 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,844 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,846 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-8
+2023-09-12 11:23:27,846 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-12
+2023-09-12 11:23:27,846 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-32
+2023-09-12 11:23:27,846 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,847 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-8
+2023-09-12 11:23:27,846 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:23:27,849 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-16
+2023-09-12 11:23:27,850 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 11:23:27,851 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 11:25:41,392 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 11:25:41,394 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 11:25:41,397 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 11:25:41,399 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 11:25:41,400 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Groupe d'unités.
+2023-09-12 11:25:41,400 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 11:25:41,400 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=10 delayedStart=false
+2023-09-12 11:25:41,417 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 11:25:41,425 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 11:25:41,425 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 11:25:42,403 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-2
+2023-09-12 11:25:43,403 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-3
+2023-09-12 11:25:44,403 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-4
+2023-09-12 11:25:45,402 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-5
+2023-09-12 11:25:46,402 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-6
+2023-09-12 11:25:47,402 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-7
+2023-09-12 11:25:48,402 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-8
+2023-09-12 11:25:49,403 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-9
+2023-09-12 11:25:50,402 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-10
+2023-09-12 11:26:06,067 INFO o.a.j.g.a.Start: Stopping test
+2023-09-12 11:26:06,069 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-7
+2023-09-12 11:26:06,069 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-2
+2023-09-12 11:26:06,070 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-3
+2023-09-12 11:26:06,070 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:26:06,070 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:26:06,070 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-4
+2023-09-12 11:26:06,070 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:26:06,070 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:26:06,070 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-7
+2023-09-12 11:26:06,070 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-2
+2023-09-12 11:26:06,070 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-3
+2023-09-12 11:26:06,070 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-4
+2023-09-12 11:26:06,070 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-5
+2023-09-12 11:26:06,070 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-8
+2023-09-12 11:26:06,070 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:26:06,070 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-6
+2023-09-12 11:26:06,071 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:26:06,071 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-5
+2023-09-12 11:26:06,071 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-10
+2023-09-12 11:26:06,071 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:26:06,071 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:26:06,071 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-6
+2023-09-12 11:26:06,071 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-10
+2023-09-12 11:26:06,071 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-8
+2023-09-12 11:26:06,071 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-9
+2023-09-12 11:26:06,071 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-1
+2023-09-12 11:26:06,071 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:26:06,071 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:26:06,072 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-9
+2023-09-12 11:26:06,072 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 11:26:06,072 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 11:26:06,072 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 11:33:11,189 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 11:33:11,190 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 11:33:11,192 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 11:33:11,307 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 11:33:11,308 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Groupe d'unités.
+2023-09-12 11:33:11,308 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 11:33:11,308 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=10 delayedStart=false
+2023-09-12 11:33:11,311 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 11:33:11,322 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 11:33:11,323 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 11:33:12,310 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-2
+2023-09-12 11:33:13,310 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-3
+2023-09-12 11:33:14,310 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-4
+2023-09-12 11:33:15,311 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-5
+2023-09-12 11:33:16,310 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-6
+2023-09-12 11:33:17,310 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-7
+2023-09-12 11:33:18,310 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-8
+2023-09-12 11:33:19,312 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-9
+2023-09-12 11:33:20,312 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-10
+2023-09-12 11:33:52,025 INFO o.a.j.g.a.Start: Stopping test
+2023-09-12 11:33:52,033 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-1
+2023-09-12 11:33:52,034 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-4
+2023-09-12 11:33:52,034 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:33:52,034 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-2
+2023-09-12 11:33:52,034 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:33:52,035 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-8
+2023-09-12 11:33:52,035 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 11:33:52,035 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:33:52,035 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-9
+2023-09-12 11:33:52,035 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-4
+2023-09-12 11:33:52,035 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:33:52,035 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-2
+2023-09-12 11:33:52,035 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-7
+2023-09-12 11:33:52,035 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-5
+2023-09-12 11:33:52,036 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-8
+2023-09-12 11:33:52,036 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-3
+2023-09-12 11:33:52,036 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:33:52,036 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:33:52,036 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-10
+2023-09-12 11:33:52,036 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-7
+2023-09-12 11:33:52,036 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:33:52,036 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:33:52,037 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:33:52,037 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-10
+2023-09-12 11:33:52,037 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-6
+2023-09-12 11:33:52,037 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-5
+2023-09-12 11:33:52,036 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-9
+2023-09-12 11:33:52,038 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:33:52,037 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-3
+2023-09-12 11:33:52,040 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-6
+2023-09-12 11:33:52,041 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 11:33:52,042 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 11:35:22,039 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 11:35:22,040 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 11:35:22,043 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 11:35:22,044 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 11:35:22,045 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Groupe d'unités.
+2023-09-12 11:35:22,045 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 11:35:22,045 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=10 delayedStart=false
+2023-09-12 11:35:22,051 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 11:35:22,061 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 11:35:22,061 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 11:35:23,051 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-2
+2023-09-12 11:35:24,048 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-3
+2023-09-12 11:35:25,046 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-4
+2023-09-12 11:35:26,046 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-5
+2023-09-12 11:35:27,047 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-6
+2023-09-12 11:35:28,048 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-7
+2023-09-12 11:35:29,048 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-8
+2023-09-12 11:35:30,049 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-9
+2023-09-12 11:35:31,048 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-10
+2023-09-12 11:35:36,984 INFO o.a.j.g.a.Start: Stopping test
+2023-09-12 11:35:36,991 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-3
+2023-09-12 11:35:36,993 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-8
+2023-09-12 11:35:36,993 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:35:36,993 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-10
+2023-09-12 11:35:36,993 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:35:36,993 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-2
+2023-09-12 11:35:36,993 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-3
+2023-09-12 11:35:36,993 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:35:36,994 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-8
+2023-09-12 11:35:36,994 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:35:36,994 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-10
+2023-09-12 11:35:36,994 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-2
+2023-09-12 11:35:36,995 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-7
+2023-09-12 11:35:36,995 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-9
+2023-09-12 11:35:36,996 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-1
+2023-09-12 11:35:36,996 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:35:36,996 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:35:36,996 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-5
+2023-09-12 11:35:36,996 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:35:36,996 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-6
+2023-09-12 11:35:36,996 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-7
+2023-09-12 11:35:36,996 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-9
+2023-09-12 11:35:36,997 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-4
+2023-09-12 11:35:36,997 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:35:36,997 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 11:35:36,997 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:35:36,997 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:35:36,997 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-5
+2023-09-12 11:35:36,997 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-6
+2023-09-12 11:35:36,998 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-4
+2023-09-12 11:35:36,999 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 11:35:37,000 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 11:40:11,383 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 11:40:11,384 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 11:40:11,386 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 11:40:11,525 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 11:40:11,525 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Groupe d'unités.
+2023-09-12 11:40:11,525 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 11:40:11,526 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=10 delayedStart=false
+2023-09-12 11:40:11,528 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 11:40:11,538 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 11:40:11,538 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 11:40:12,528 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-2
+2023-09-12 11:40:13,529 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-3
+2023-09-12 11:40:14,527 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-4
+2023-09-12 11:40:15,528 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-5
+2023-09-12 11:40:16,528 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-6
+2023-09-12 11:40:17,528 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-7
+2023-09-12 11:40:18,528 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-8
+2023-09-12 11:40:19,527 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-9
+2023-09-12 11:40:20,528 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-10
+2023-09-12 11:40:24,477 INFO o.a.j.g.a.Start: Stopping test
+2023-09-12 11:40:24,486 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-7
+2023-09-12 11:40:24,487 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-9
+2023-09-12 11:40:24,487 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:40:24,487 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-3
+2023-09-12 11:40:24,487 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:40:24,488 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-8
+2023-09-12 11:40:24,488 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-7
+2023-09-12 11:40:24,488 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:40:24,488 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-9
+2023-09-12 11:40:24,488 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-2
+2023-09-12 11:40:24,488 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:40:24,488 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-3
+2023-09-12 11:40:24,488 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-8
+2023-09-12 11:40:24,489 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-1
+2023-09-12 11:40:24,489 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:40:24,489 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-4
+2023-09-12 11:40:24,490 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-2
+2023-09-12 11:40:24,490 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-5
+2023-09-12 11:40:24,490 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:40:24,490 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-10
+2023-09-12 11:40:24,490 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-6
+2023-09-12 11:40:24,491 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:40:24,491 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:40:24,491 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-5
+2023-09-12 11:40:24,490 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 11:40:24,493 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-6
+2023-09-12 11:40:24,493 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:40:24,491 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:40:24,493 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-10
+2023-09-12 11:40:24,494 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-4
+2023-09-12 11:40:24,495 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 11:40:24,495 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 11:41:02,753 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 11:41:02,754 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 11:41:02,757 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 11:41:02,829 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 11:41:02,829 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Groupe d'unités.
+2023-09-12 11:41:02,829 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 11:41:02,829 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=10 delayedStart=false
+2023-09-12 11:41:02,830 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 11:41:02,833 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 11:41:02,833 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 11:41:03,830 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-2
+2023-09-12 11:41:04,830 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-3
+2023-09-12 11:41:05,830 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-4
+2023-09-12 11:41:06,829 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-5
+2023-09-12 11:41:07,830 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-6
+2023-09-12 11:41:08,831 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-7
+2023-09-12 11:41:09,829 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-8
+2023-09-12 11:41:10,830 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-9
+2023-09-12 11:41:11,830 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-10
+2023-09-12 11:43:53,970 INFO o.a.j.g.a.Start: Stopping test
+2023-09-12 11:43:53,974 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-1
+2023-09-12 11:43:53,975 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-8
+2023-09-12 11:43:53,975 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:43:53,975 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-5
+2023-09-12 11:43:53,975 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:43:53,975 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-7
+2023-09-12 11:43:53,975 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 11:43:53,975 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:43:53,975 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-4
+2023-09-12 11:43:53,975 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-8
+2023-09-12 11:43:53,975 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-5
+2023-09-12 11:43:53,975 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:43:53,975 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-4
+2023-09-12 11:43:53,975 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-9
+2023-09-12 11:43:53,976 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:43:53,976 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:43:53,976 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-7
+2023-09-12 11:43:53,976 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-9
+2023-09-12 11:43:53,977 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-10
+2023-09-12 11:43:53,977 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-6
+2023-09-12 11:43:53,977 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-3
+2023-09-12 11:43:53,977 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:43:53,977 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-2
+2023-09-12 11:43:53,977 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:43:53,977 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:43:53,977 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-10
+2023-09-12 11:43:53,977 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-3
+2023-09-12 11:43:53,977 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-6
+2023-09-12 11:43:53,977 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:43:53,977 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-2
+2023-09-12 11:43:53,978 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 11:43:53,978 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 11:44:52,887 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 11:44:52,888 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 11:44:52,888 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 11:44:52,935 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 11:44:52,936 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Groupe d'unités.
+2023-09-12 11:44:52,936 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 11:44:52,936 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=10 delayedStart=false
+2023-09-12 11:44:52,936 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 11:44:52,939 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 11:44:52,939 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 11:44:53,937 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-2
+2023-09-12 11:44:54,937 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-3
+2023-09-12 11:44:55,936 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-4
+2023-09-12 11:44:56,936 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-5
+2023-09-12 11:44:57,937 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-6
+2023-09-12 11:44:58,936 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-7
+2023-09-12 11:44:59,936 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-8
+2023-09-12 11:45:00,938 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-9
+2023-09-12 11:45:01,937 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-10
+2023-09-12 11:45:07,193 INFO o.a.j.g.a.Start: Stopping test
+2023-09-12 11:45:07,196 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-3
+2023-09-12 11:45:07,196 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-6
+2023-09-12 11:45:07,196 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-8
+2023-09-12 11:45:07,196 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:45:07,196 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-10
+2023-09-12 11:45:07,196 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:45:07,196 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-1
+2023-09-12 11:45:07,196 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:45:07,196 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-9
+2023-09-12 11:45:07,196 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-3
+2023-09-12 11:45:07,196 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:45:07,196 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-8
+2023-09-12 11:45:07,196 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:45:07,196 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 11:45:07,196 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-9
+2023-09-12 11:45:07,197 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-2
+2023-09-12 11:45:07,197 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:45:07,197 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-2
+2023-09-12 11:45:07,196 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-6
+2023-09-12 11:45:07,197 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-5
+2023-09-12 11:45:07,196 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:45:07,197 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-7
+2023-09-12 11:45:07,197 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:45:07,197 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-4
+2023-09-12 11:45:07,197 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-10
+2023-09-12 11:45:07,198 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-5
+2023-09-12 11:45:07,198 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:45:07,198 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-4
+2023-09-12 11:45:07,198 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:45:07,198 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-7
+2023-09-12 11:45:07,198 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 11:45:07,199 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 11:46:36,653 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 11:46:36,654 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 11:46:36,657 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 11:46:36,659 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 11:46:36,664 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Groupe d'unités.
+2023-09-12 11:46:36,664 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 11:46:36,664 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=10 delayedStart=false
+2023-09-12 11:46:36,666 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 11:46:36,673 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 11:46:36,673 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 11:46:37,668 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-2
+2023-09-12 11:46:38,668 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-3
+2023-09-12 11:46:39,667 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-4
+2023-09-12 11:46:40,668 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-5
+2023-09-12 11:46:41,666 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-6
+2023-09-12 11:46:42,666 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-7
+2023-09-12 11:46:43,666 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-8
+2023-09-12 11:46:44,667 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-9
+2023-09-12 11:46:45,667 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-10
+2023-09-12 11:47:44,456 INFO o.a.j.g.a.Start: Stopping test
+2023-09-12 11:47:44,458 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-2
+2023-09-12 11:47:44,459 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-6
+2023-09-12 11:47:44,459 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-3
+2023-09-12 11:47:44,459 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:47:44,459 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-10
+2023-09-12 11:47:44,459 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:47:44,459 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-9
+2023-09-12 11:47:44,459 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-1
+2023-09-12 11:47:44,459 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-2
+2023-09-12 11:47:44,459 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-6
+2023-09-12 11:47:44,459 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-4
+2023-09-12 11:47:44,459 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-7
+2023-09-12 11:47:44,459 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:47:44,459 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-5
+2023-09-12 11:47:44,459 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-8
+2023-09-12 11:47:44,459 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 11:47:44,459 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:47:44,459 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:47:44,459 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:47:44,459 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:47:44,459 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-8
+2023-09-12 11:47:44,459 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-3
+2023-09-12 11:47:44,459 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-5
+2023-09-12 11:47:44,460 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:47:44,460 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:47:44,459 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 11:47:44,460 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-4
+2023-09-12 11:47:44,460 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-10
+2023-09-12 11:47:44,459 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-9
+2023-09-12 11:47:44,460 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-7
+2023-09-12 11:47:44,461 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 11:47:44,461 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 12:12:32,146 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 12:12:32,146 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 12:12:32,148 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 12:12:32,213 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 12:12:32,213 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Groupe d'unités.
+2023-09-12 12:12:32,213 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 12:12:32,213 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=10 delayedStart=false
+2023-09-12 12:12:32,214 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 12:12:32,216 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 12:12:32,216 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 12:12:33,214 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-2
+2023-09-12 12:12:34,214 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-3
+2023-09-12 12:12:35,214 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-4
+2023-09-12 12:12:36,214 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-5
+2023-09-12 12:12:37,213 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-6
+2023-09-12 12:12:38,213 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-7
+2023-09-12 12:12:39,214 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-8
+2023-09-12 12:12:40,214 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-9
+2023-09-12 12:12:40,957 INFO o.a.j.g.a.Start: Stopping test
+2023-09-12 12:12:40,965 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-2
+2023-09-12 12:12:40,966 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-9
+2023-09-12 12:12:40,966 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:12:40,966 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-10
+2023-09-12 12:12:40,966 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:12:40,967 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-5
+2023-09-12 12:12:40,967 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-4
+2023-09-12 12:12:40,967 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-2
+2023-09-12 12:12:40,967 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-9
+2023-09-12 12:12:40,967 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:12:40,967 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-10
+2023-09-12 12:12:40,968 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:12:40,968 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-4
+2023-09-12 12:12:40,968 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-10
+2023-09-12 12:12:40,968 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-5
+2023-09-12 12:12:40,968 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-1
+2023-09-12 12:12:40,970 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-3
+2023-09-12 12:12:40,971 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:12:40,971 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-6
+2023-09-12 12:12:40,971 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:12:40,971 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-8
+2023-09-12 12:12:40,971 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:12:40,971 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-7
+2023-09-12 12:12:40,971 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-3
+2023-09-12 12:12:40,971 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 12:12:40,972 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:12:40,972 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-6
+2023-09-12 12:12:40,972 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-7
+2023-09-12 12:12:40,972 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:12:40,973 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-8
+2023-09-12 12:12:40,973 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 12:12:40,973 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 12:13:25,981 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 12:13:25,982 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 12:13:25,984 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 12:13:26,098 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 12:13:26,099 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Groupe d'unités.
+2023-09-12 12:13:26,099 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 12:13:26,099 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=10 delayedStart=false
+2023-09-12 12:13:26,101 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 12:13:26,108 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 12:13:26,108 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 12:13:27,101 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-2
+2023-09-12 12:13:28,100 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-3
+2023-09-12 12:13:29,101 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-4
+2023-09-12 12:13:30,100 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-5
+2023-09-12 12:13:31,100 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-6
+2023-09-12 12:13:32,100 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-7
+2023-09-12 12:13:33,100 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-8
+2023-09-12 12:13:34,101 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-9
+2023-09-12 12:13:35,101 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-10
+2023-09-12 12:13:43,157 INFO o.a.j.g.a.Start: Stopping test
+2023-09-12 12:13:43,164 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-5
+2023-09-12 12:13:43,165 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-8
+2023-09-12 12:13:43,165 WARN o.a.j.t.JMeterThread: Interrupting: Groupe d'unités 1-8 sampler: CreateOrder
+2023-09-12 12:13:43,166 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:13:43,166 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-5
+2023-09-12 12:13:43,166 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-2
+2023-09-12 12:13:43,167 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-1
+2023-09-12 12:13:43,167 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:13:43,167 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-9
+2023-09-12 12:13:43,168 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-3
+2023-09-12 12:13:43,168 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-2
+2023-09-12 12:13:43,168 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:13:43,168 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-4
+2023-09-12 12:13:43,168 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:13:43,168 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-8
+2023-09-12 12:13:43,168 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-6
+2023-09-12 12:13:43,168 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-9
+2023-09-12 12:13:43,168 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:13:43,169 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:13:43,169 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-3
+2023-09-12 12:13:43,169 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-4
+2023-09-12 12:13:43,170 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:13:43,170 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-6
+2023-09-12 12:13:43,168 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 12:13:43,168 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-7
+2023-09-12 12:13:43,172 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-10
+2023-09-12 12:13:43,172 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:13:43,172 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 12:13:43,173 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-10
+2023-09-12 12:13:43,173 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-7
+2023-09-12 12:13:43,174 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 12:13:43,174 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 15:19:24,270 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 15:19:24,271 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 15:19:24,274 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 15:19:24,276 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 15:19:24,276 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Groupe d'unités.
+2023-09-12 15:19:24,276 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 15:19:24,276 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=10 delayedStart=false
+2023-09-12 15:19:24,284 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 15:19:24,291 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 15:19:24,292 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 15:19:25,284 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-2
+2023-09-12 15:19:26,277 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-3
+2023-09-12 15:19:27,278 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-4
+2023-09-12 15:19:28,277 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-5
+2023-09-12 15:19:29,277 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-6
+2023-09-12 15:19:30,278 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-7
+2023-09-12 15:19:31,277 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-8
+2023-09-12 15:19:32,277 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-9
+2023-09-12 15:19:33,277 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-10
+2023-09-12 15:20:53,673 INFO o.a.j.g.a.Start: Stopping test
+2023-09-12 15:20:53,681 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-9
+2023-09-12 15:20:53,681 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-5
+2023-09-12 15:20:53,682 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-6
+2023-09-12 15:20:53,682 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:20:53,682 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-1
+2023-09-12 15:20:53,682 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:20:53,682 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-2
+2023-09-12 15:20:53,682 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:20:53,682 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:20:53,682 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-9
+2023-09-12 15:20:53,682 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-5
+2023-09-12 15:20:53,682 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:20:53,682 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-6
+2023-09-12 15:20:53,683 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 15:20:53,683 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-2
+2023-09-12 15:20:53,683 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-4
+2023-09-12 15:20:53,683 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-7
+2023-09-12 15:20:53,683 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-10
+2023-09-12 15:20:53,684 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:20:53,684 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:20:53,684 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:20:53,684 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-4
+2023-09-12 15:20:53,684 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-3
+2023-09-12 15:20:53,684 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-7
+2023-09-12 15:20:53,684 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-8
+2023-09-12 15:20:53,684 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-10
+2023-09-12 15:20:53,687 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:20:53,687 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-8
+2023-09-12 15:20:53,687 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:20:53,688 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-3
+2023-09-12 15:20:53,689 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 15:20:53,689 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 15:24:52,763 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 15:24:52,763 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 15:24:52,764 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 15:24:52,811 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 15:24:52,811 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Groupe d'unités.
+2023-09-12 15:24:52,811 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 15:24:52,811 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=10 delayedStart=false
+2023-09-12 15:24:52,812 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 15:24:52,814 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 15:24:52,814 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 15:24:53,811 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-2
+2023-09-12 15:24:54,811 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-3
+2023-09-12 15:24:55,812 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-4
+2023-09-12 15:24:56,811 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-5
+2023-09-12 15:24:57,811 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-6
+2023-09-12 15:24:58,811 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-7
+2023-09-12 15:24:59,812 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-8
+2023-09-12 15:25:00,811 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-9
+2023-09-12 15:25:01,811 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-10
+2023-09-12 15:25:02,695 INFO o.a.j.g.a.Start: Stopping test
+2023-09-12 15:25:02,700 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-8
+2023-09-12 15:25:02,701 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-10
+2023-09-12 15:25:02,701 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-5
+2023-09-12 15:25:02,701 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:25:02,701 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-9
+2023-09-12 15:25:02,701 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:25:02,702 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-3
+2023-09-12 15:25:02,702 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:25:02,702 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-7
+2023-09-12 15:25:02,702 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-8
+2023-09-12 15:25:02,702 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:25:02,702 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-6
+2023-09-12 15:25:02,702 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-10
+2023-09-12 15:25:02,702 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-5
+2023-09-12 15:25:02,702 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-9
+2023-09-12 15:25:02,702 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:25:02,702 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-6
+2023-09-12 15:25:02,702 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:25:02,703 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-4
+2023-09-12 15:25:02,703 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-3
+2023-09-12 15:25:02,703 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:25:02,703 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-1
+2023-09-12 15:25:02,703 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-2
+2023-09-12 15:25:02,703 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-7
+2023-09-12 15:25:02,703 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:25:02,704 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:25:02,704 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 15:25:02,704 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-2
+2023-09-12 15:25:02,703 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:25:02,704 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-4
+2023-09-12 15:25:02,705 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 15:25:02,705 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 15:26:00,496 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 15:26:00,497 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 15:26:00,499 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 15:26:00,501 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 15:26:00,501 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Groupe d'unités.
+2023-09-12 15:26:00,501 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 15:26:00,501 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=10 delayedStart=false
+2023-09-12 15:26:00,503 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 15:26:00,516 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 15:26:00,516 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 15:26:01,503 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-2
+2023-09-12 15:26:02,508 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-3
+2023-09-12 15:26:03,509 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-4
+2023-09-12 15:26:04,503 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-5
+2023-09-12 15:26:05,503 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-6
+2023-09-12 15:26:06,504 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-7
+2023-09-12 15:26:07,503 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-8
+2023-09-12 15:26:08,505 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-9
+2023-09-12 15:26:09,504 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-10
+2023-09-12 15:26:48,894 INFO o.a.j.g.a.Start: Stopping test
+2023-09-12 15:26:48,901 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-2
+2023-09-12 15:26:48,902 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-6
+2023-09-12 15:26:48,902 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-7
+2023-09-12 15:26:48,902 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:26:48,902 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-5
+2023-09-12 15:26:48,902 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:26:48,902 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-8
+2023-09-12 15:26:48,902 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:26:48,902 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-9
+2023-09-12 15:26:48,902 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:26:48,902 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-6
+2023-09-12 15:26:48,902 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-7
+2023-09-12 15:26:48,902 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:26:48,902 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-2
+2023-09-12 15:26:48,902 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:26:48,902 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-5
+2023-09-12 15:26:48,902 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-1
+2023-09-12 15:26:48,903 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-8
+2023-09-12 15:26:48,903 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-9
+2023-09-12 15:26:48,903 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:26:48,905 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-10
+2023-09-12 15:26:48,905 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-3
+2023-09-12 15:26:48,906 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 15:26:48,906 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:26:48,906 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-4
+2023-09-12 15:26:48,906 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:26:48,906 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-10
+2023-09-12 15:26:48,906 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:26:48,906 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-3
+2023-09-12 15:26:48,906 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-4
+2023-09-12 15:26:48,908 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 15:26:48,908 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 15:28:00,329 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 15:28:00,330 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 15:28:00,331 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 15:28:00,469 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 15:28:00,470 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Groupe d'unités.
+2023-09-12 15:28:00,470 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 15:28:00,470 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=false
+2023-09-12 15:28:00,471 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 15:28:00,471 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 15:28:00,472 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 15:28:05,379 INFO o.a.j.t.JMeterThread: Thread is done: Groupe d'unités 1-1
+2023-09-12 15:28:05,379 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 15:28:05,380 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 15:28:05,380 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 15:28:51,553 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 15:28:51,553 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 15:28:51,554 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 15:28:51,683 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 15:28:51,683 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Groupe d'unités.
+2023-09-12 15:28:51,683 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 15:28:51,684 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=false
+2023-09-12 15:28:51,685 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 15:28:51,685 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 15:28:51,685 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 15:28:56,793 INFO o.a.j.t.JMeterThread: Thread is done: Groupe d'unités 1-1
+2023-09-12 15:28:56,793 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 15:28:56,794 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 15:28:56,794 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 15:32:33,392 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 15:32:33,392 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 15:32:33,393 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 15:32:33,396 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 15:32:33,396 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Groupe d'unités.
+2023-09-12 15:32:33,396 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 15:32:33,397 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=false
+2023-09-12 15:32:33,397 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 15:32:33,397 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 15:32:33,397 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 15:32:38,329 INFO o.a.j.t.JMeterThread: Thread is done: Groupe d'unités 1-1
+2023-09-12 15:32:38,329 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 15:32:38,330 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 15:32:38,330 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 15:35:03,165 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 15:35:03,165 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 15:35:03,166 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 15:35:03,214 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 15:35:03,214 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Groupe d'unités.
+2023-09-12 15:35:03,214 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 15:35:03,214 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=false
+2023-09-12 15:35:03,215 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 15:35:03,215 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 15:35:03,215 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 15:35:08,219 INFO o.a.j.t.JMeterThread: Thread is done: Groupe d'unités 1-1
+2023-09-12 15:35:08,219 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 15:35:08,220 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 15:35:08,220 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 15:38:13,235 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 15:38:13,236 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 15:38:13,236 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 15:38:13,283 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 15:38:13,284 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Groupe d'unités.
+2023-09-12 15:38:13,284 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 15:38:13,284 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=false
+2023-09-12 15:38:13,284 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 15:38:13,284 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 15:38:13,284 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 15:38:18,386 INFO o.a.j.t.JMeterThread: Thread is done: Groupe d'unités 1-1
+2023-09-12 15:38:18,387 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 15:38:18,387 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 15:38:18,387 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 15:39:03,090 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 15:39:03,091 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 15:39:03,092 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 15:39:03,173 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 15:39:03,173 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Groupe d'unités.
+2023-09-12 15:39:03,173 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 15:39:03,173 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=false
+2023-09-12 15:39:03,174 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 15:39:03,174 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 15:39:03,174 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 15:42:06,263 INFO o.a.j.g.a.Start: Stopping test
+2023-09-12 15:42:06,271 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-1
+2023-09-12 15:42:06,272 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:42:06,272 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 15:42:06,273 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 15:42:06,273 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 15:45:42,327 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-12 15:45:42,327 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-12 15:45:42,328 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-12 15:45:42,373 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Groupe d'unités
+2023-09-12 15:45:42,374 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Groupe d'unités.
+2023-09-12 15:45:42,374 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-12 15:45:42,374 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=false
+2023-09-12 15:45:42,374 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-12 15:45:42,374 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-12 15:45:42,374 INFO o.a.j.t.JMeterThread: Thread started: Groupe d'unités 1-1
+2023-09-12 15:46:21,750 INFO o.a.j.g.a.Start: Stopping test
+2023-09-12 15:46:21,757 INFO o.a.j.t.JMeterThread: Stopping: Groupe d'unités 1-1
+2023-09-12 15:46:21,758 WARN o.a.j.t.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended.
+2023-09-12 15:46:21,758 INFO o.a.j.t.JMeterThread: Thread finished: Groupe d'unités 1-1
+2023-09-12 15:46:21,759 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-12 15:46:21,760 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-12 16:00:40,170 INFO o.a.j.g.a.Load: Loading file: /home/dthibau/Formations/DesignPatternsMicroServices/github/slides/TPs/6/CreateOrderSaga.jmx
+2023-09-12 16:00:40,170 INFO o.a.j.s.FileServer: Set new base='/home/dthibau/Formations/DesignPatternsMicroServices/github/slides/TPs/6'
+2023-09-12 16:00:40,170 INFO o.a.j.s.SaveService: Loading file: /home/dthibau/Formations/DesignPatternsMicroServices/github/slides/TPs/6/CreateOrderSaga.jmx
+2023-09-12 16:00:40,274 ERROR o.a.j.v.ViewResultsFullVisualizer: Exception registering implementation: [org.apache.jmeter.visualizers.RenderInBrowser] of interface: [interface org.apache.jmeter.visualizers.ResultRenderer], a jar is probably missing
+java.util.ServiceConfigurationError: org.apache.jmeter.visualizers.ResultRenderer: org.apache.jmeter.visualizers.RenderInBrowser Unable to get public no-arg constructor
+	at java.util.ServiceLoader.fail(ServiceLoader.java:584) ~[?:?]
+	at java.util.ServiceLoader.getConstructor(ServiceLoader.java:675) ~[?:?]
+	at java.util.ServiceLoader$LazyClassPathLookupIterator.hasNextService(ServiceLoader.java:1234) ~[?:?]
+	at java.util.ServiceLoader$LazyClassPathLookupIterator.hasNext(ServiceLoader.java:1266) ~[?:?]
+	at java.util.ServiceLoader$2.hasNext(ServiceLoader.java:1301) ~[?:?]
+	at java.util.ServiceLoader$3.hasNext(ServiceLoader.java:1386) ~[?:?]
+	at org.apache.jorphan.reflect.ClassFinder.loadServices(ClassFinder.java:115) ~[jorphan.jar:5.6]
+	at org.apache.jmeter.util.JMeterUtils.loadServicesAndScanJars(JMeterUtils.java:345) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createComboRender(ViewResultsFullVisualizer.java:464) ~[ApacheJMeter_components.jar:5.6]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createLeftPanel(ViewResultsFullVisualizer.java:438) ~[ApacheJMeter_components.jar:5.6]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.init(ViewResultsFullVisualizer.java:349) ~[ApacheJMeter_components.jar:5.6]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.<init>(ViewResultsFullVisualizer.java:156) ~[ApacheJMeter_components.jar:5.6]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.apache.jmeter.gui.GuiPackage.getGuiFromCache(GuiPackage.java:424) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.GuiPackage.getGui(GuiPackage.java:267) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.GuiPackage.getGui(GuiPackage.java:238) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addComponent(JMeterTreeModel.java:160) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:131) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:123) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.GuiPackage.addSubTree(GuiPackage.java:555) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.action.Load.insertLoadedTree(Load.java:201) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:132) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:103) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.action.Load.doActionAfterCheck(Load.java:90) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.action.AbstractActionWithNoRunningTest.doAction(AbstractActionWithNoRunningTest.java:44) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:83) ~[ApacheJMeter_core.jar:5.6]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:65) ~[ApacheJMeter_core.jar:5.6]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+Caused by: java.lang.NoClassDefFoundError: javafx/embed/swing/JFXPanel
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3215) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3420) ~[?:?]
+	at java.lang.Class.getConstructor(Class.java:2165) ~[?:?]
+	at java.util.ServiceLoader$1.run(ServiceLoader.java:662) ~[?:?]
+	at java.util.ServiceLoader$1.run(ServiceLoader.java:659) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:554) [?:?]
+	at java.util.ServiceLoader.getConstructor(ServiceLoader.java:670) ~[?:?]
+	... 42 more
+Caused by: java.lang.ClassNotFoundException: javafx.embed.swing.JFXPanel
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:435) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:589) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:522) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3215) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3420) ~[?:?]
+	at java.lang.Class.getConstructor(Class.java:2165) ~[?:?]
+	at java.util.ServiceLoader$1.run(ServiceLoader.java:662) ~[?:?]
+	at java.util.ServiceLoader$1.run(ServiceLoader.java:659) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:554) ~[?:?]
+	at java.util.ServiceLoader.getConstructor(ServiceLoader.java:670) ~[?:?]
+	... 42 more
+2023-09-12 16:00:40,542 INFO o.a.j.s.FileServer: Set new base='/home/dthibau/Formations/DesignPatternsMicroServices/github/slides/TPs/6'
