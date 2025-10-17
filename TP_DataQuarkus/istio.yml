@@ -1,0 +1,58 @@
+# ---------- Istio Gateway (edge) ----------
+apiVersion: networking.istio.io/v1beta1
+kind: Gateway
+metadata:
+  name: app-gw
+  namespace: default
+spec:
+  selector:
+    istio: ingressgateway   # utilise le pod istio-ingressgateway
+  servers:
+    - port:
+        number: 80
+        name: http
+        protocol: HTTP
+      hosts: ["*"]
+---
+# ---------- Routes (réécritures équivalentes à Spring Cloud Gateway) ----------
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: app-vs
+  namespace: default
+spec:
+  hosts: ["*"]
+  gateways: ["app-gw"]
+  http:
+    # /orders (POST) -> order-service, rewrite /orders -> /api/orders
+    - match:
+        - uri: { exact: "/orders" }
+          method: { exact: "POST" }
+      rewrite:
+        uri: "/api/orders"
+      route:
+        - destination: { host: order-service, port: { number: 80 } }
+
+    # /tickets/** -> product-service, rewrite prefix /tickets -> /api/tickets
+    - match:
+        - uri: { prefix: "/tickets" }
+      rewrite:
+        uri: "/api/tickets"   # remplace le prefix; le suffixe est conservé
+      route:
+        - destination: { host: product-service, port: { number: 80 } }
+
+    # /livraisons (exact) -> delivery-service, rewrite -> /api/livraisons
+    - match:
+        - uri: { exact: "/livraisons" }
+      rewrite:
+        uri: "/api/livraisons"
+      route:
+        - destination: { host: delivery-service, port: { number: 80 } }
+
+    # /livraisons/** (prefix) -> delivery-service, rewrite prefix -> /api/livraisons
+    - match:
+        - uri: { prefix: "/livraisons" }
+      rewrite:
+        uri: "/api/livraisons"
+      route:
+        - destination: { host: delivery-service, port: { number: 80 } }
