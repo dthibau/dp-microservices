@@ -1,0 +1,15 @@
+server:
+  listenAddress: "0.0.0.0"
+  listenPort: 8080
+
+kafka:
+  brokers:
+    - "broker:29092"        # le broker dans le réseau docker-compose
+  clientId: "redpanda-console"
+  sasl:
+    enabled: false
+  tls:
+    enabled: false
+
+
+

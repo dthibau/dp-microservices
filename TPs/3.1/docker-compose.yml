@@ -1,30 +1,44 @@
-version: "2"
-
 services:
-  kafka:
-    image: docker.io/bitnami/kafka:3.7
+  broker:
+    image: apache/kafka:latest
+    container_name: broker
+    hostname: broker
     ports:
-      - "9092:9092"
+      - "9092:9092"                    # client depuis l'hôte
+    environment:
+      KAFKA_BROKER_ID: "1"
+      KAFKA_NODE_ID: "1"
+      KAFKA_PROCESS_ROLES: "broker,controller"
+      KAFKA_CONTROLLER_LISTENER_NAMES: "CONTROLLER"
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: "PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT,CONTROLLER:PLAINTEXT"
+      KAFKA_LISTENERS: "PLAINTEXT://broker:29092,CONTROLLER://broker:29093,PLAINTEXT_HOST://0.0.0.0:9092"
+      KAFKA_ADVERTISED_LISTENERS: "PLAINTEXT://broker:29092,PLAINTEXT_HOST://localhost:9092"
+      KAFKA_INTER_BROKER_LISTENER_NAME: "PLAINTEXT"
+      KAFKA_CONTROLLER_QUORUM_VOTERS: "1@broker:29093"
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: "0"
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: "1"
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: "1"
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: "1"
+      # stockage KRaft
+      KAFKA_LOG_DIRS: "/tmp/kraft-combined-logs"
+      # ID de cluster KRaft (24 caractères base64-like attendu)
+      CLUSTER_ID: "MkU3OEVBNTcwNTJENDM2Qk"
     volumes:
-      - "kafka_data:/bitnami"
-    environment:
-      - ALLOW_PLAINTEXT_LISTENER=yes
-      - KAFKA_CFG_NODE_ID=0
-      - KAFKA_CFG_PROCESS_ROLES=controller,broker
-      - KAFKA_CFG_CONTROLLER_LISTENER_NAMES=CONTROLLER
-      - KAFKA_CFG_CONTROLLER_QUORUM_VOTERS=0@kafka:9093
-      - KAFKA_KRAFT_CLUSTER_ID=abcdefghijklmnopqrstuv
-      - KAFKA_CFG_LISTENERS=PLAINTEXT://:9092,CONTROLLER://:9093
-      - KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092
-      - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT
+      - kafka-data:/tmp/kraft-combined-logs
 
-  redpanda:
-    image : docker.redpanda.com/redpandadata/console:latest
-    ports: 
-      - 8079:8080
-    environment:
-      - KAFKA_BROKERS=kafka:9092
-      
+  redpanda-console:
+    image: docker.redpanda.com/redpandadata/console:latest
+    container_name: dp-redpanda-console
+    depends_on:
+      - broker
+    ports:
+      - "9090:8080"
+    command: ["-config.filepath=/etc/redpanda/console/console.yaml"]
+    volumes:
+      - ./console/console.yaml:/etc/redpanda/console/console.yaml:ro
+
+
+
 volumes:
-  kafka_data:
-    driver: local
+  kafka-data:
+
